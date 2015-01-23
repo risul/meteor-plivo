@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-    "plivo": '0.2.5'
+    "plivo-node": '0.2.5'
 });
 
 Package.onUse(function(api) {
