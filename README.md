@@ -19,6 +19,12 @@ Add this to your settings.json or METEOR_SETTINGS env variable containing all se
 }
 ```
 
+This package also support use of ENV variables instead of settings:
+
+PLIVO_AUTH_ID
+PLIVO_AUTH_TOKEN
+
+
 
 More info
 =======================================

@@ -1,12 +1,12 @@
 Package.describe({
     name: 'risul:plivo',
     summary: 'Plivo NodeJS client packaged for Meteor',
-    version: '1.0.0',
+    version: '1.0.0_1',
     git: 'https://github.com/risul/meteor-plivo'
 });
 
 Npm.depends({
-    "plivo-node": '0.2.5'
+    "plivo": '0.3.2'
 });
 
 Package.onUse(function(api) {
