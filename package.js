@@ -10,7 +10,7 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-    api.versionsFrom('METEOR@0.9.2.2');
+    api.versionsFrom('METEOR@1.0');
     api.export('Plivo');
     api.addFiles('lib/plivo.js', 'server');
 });
